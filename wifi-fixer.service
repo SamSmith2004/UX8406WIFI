@@ -1,0 +1,11 @@
+[Unit]
+Description=Wi-Fi Fixer Service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /home/USER/scripts/wifi_fixer.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
