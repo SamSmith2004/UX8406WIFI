@@ -1,4 +1,4 @@
-### Asus Zenbook Duo 2024 Patch
+### Asus Zenbook Duo 2024(Linux) Patch
 Simple bash script to counter bug on Asus Zenbook Duo 2024 (UX8406) causing wifi to disable when removing or reconnecting the keyboard.
 Checks at 5 second intervals if wifi is disabled and re-enables it if it is.
 
